@@ -12,7 +12,8 @@ public class Test{
 		
 	}
 }
-
+/* you */
+// fail
 
 class Alumno {
 	
