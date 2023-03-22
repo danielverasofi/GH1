@@ -19,6 +19,8 @@ public class Test1 {
 		num1 = num2;
 		num2 = numAux;
 		System.out.println("El primer número introducido es "+num2 + "el segundo número es "+num1);
+		
+		System.out.println("la suma de "+num2+"+"+num1+"="+(num1+num2));
 	}
 
 }
