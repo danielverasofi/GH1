@@ -19,21 +19,22 @@ public class Test2 {
 		try (Scanner sc = new Scanner(System.in)) {
 			int numInt;
 			long numLong, numNewLong;
-			double numDou,numNewDou;
+			double numDou, numNewDou;
 
 			System.out.println("Introduce un número entero");
 			numInt = sc.nextInt();
-			
+
 			System.out.println("Introduce un número tipo long");
 			numLong = sc.nextLong();
-			
+
 			System.out.println("Introduce un numero tipo Double");
 			numDou = sc.nextDouble();
 
-			System.out.println("El número entero es " + numInt + ", num double es " + numDou + " y num Long es " + numLong);
-			
+			System.out.println(
+					"El número entero es " + numInt + ", num double es " + numDou + " y num Long es " + numLong);
+
 			numNewLong = numInt;
-			System.out.println("Asignación de int a long : " + numLong);
+			System.out.println("Asignación de int a long : " + numNewLong);
 
 			numNewDou = numInt;
 			System.out.println("Asignación de int a double : " + numNewDou);
@@ -45,8 +46,8 @@ public class Test2 {
 			character = sc.next().charAt(0);
 
 			System.out.println("El primer caracter del texto es: " + character);
-			
-			System.out.println("El valor númerico en unicode del char "+character+" es igual a "+(int)character);
+
+			System.out.println("El valor númerico en unicode del char " + character + " es igual a " + (int) character);
 		}
 	}
 
