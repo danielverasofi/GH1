@@ -6,7 +6,7 @@ public class InstanceOf {
 		// TODO Auto-generated method stub
 
 		
-		String texto = "";
+//		String texto = "";
 //				System.out.println(texto instanceof);
 		
 
