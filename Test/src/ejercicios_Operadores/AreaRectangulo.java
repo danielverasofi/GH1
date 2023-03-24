@@ -1,6 +1,6 @@
 package ejercicios_Operadores;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class AreaRectangulo {
 
@@ -8,13 +8,15 @@ public class AreaRectangulo {
 	private double base=0;
 	private double altura=0;
 	
+	public AreaRectangulo() {
+		super();
+	}
 	//Constructor
 	public AreaRectangulo (double base, double altura) {
 		this.base = base;
 		this.altura = altura;
 	}
-	public AreaRectangulo() {
-	}
+
 	//  Antiguo metodo main, en el que calculabamos el area de un rectangulo 
 	// recogiendo los valores por consola
 	
