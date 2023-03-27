@@ -16,14 +16,16 @@ public class Calculos {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		AreaRectangulo areaRectangulo = new AreaRectangulo();
-//		areaRectangulo.areaRectangulo(0, 0);
+		
+		//Utilizando constructor por defecto o constructor vacio
+		AreaRectangulo areaRectangulo = new AreaRectangulo();
+		areaRectangulo.areaRectangulo(0, 0);
 		
 
 		
-		
-		AreaRectangulo areaRectangulo = new AreaRectangulo(4.65 ,4.56);
-		areaRectangulo.arearectangulo();
+		//Utilizando constructor con parametros
+		AreaRectangulo areaRectangulo2 = new AreaRectangulo(4.65 ,4.56);
+		areaRectangulo2.arearectangulo();
 		
 
 	}

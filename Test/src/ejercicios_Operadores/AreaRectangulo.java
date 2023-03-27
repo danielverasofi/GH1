@@ -8,10 +8,12 @@ public class AreaRectangulo {
 	private double base=0;
 	private double altura=0;
 	
+	
+	//Constructor por defecto, necesitamos crearlo si creamos un constructor de clase pisamos el constructor por defecto.
 	public AreaRectangulo() {
 		super();
 	}
-	//Constructor
+	//Constructor con aprametros
 	public AreaRectangulo (double base, double altura) {
 		this.base = base;
 		this.altura = altura;
@@ -42,10 +44,12 @@ public class AreaRectangulo {
 	
 
 
-
+	//Función usando los parametros que nos pasen
 	public void areaRectangulo(float base, float altura) {
 		System.out.println("El area es: "+(base*altura));
 	}
+	
+	//Función usando los parametros de la clase
 	public void arearectangulo() {
 		System.out.println("El area es: "+ (this.base*this.altura));
 	}
