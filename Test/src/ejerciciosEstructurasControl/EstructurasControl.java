@@ -101,6 +101,8 @@ System.out.println("Suficiente!(ifAnidado)");
 		case(10):
 			System.out.println("Matrícula!(switch)");
 		break;
+		default:
+			System.out.println("Valor no contemplado!(switch)");
 		}
 	}
 }

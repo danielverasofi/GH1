@@ -27,6 +27,14 @@ public class Calculos {
 		AreaRectangulo areaRectangulo2 = new AreaRectangulo(4.65 ,4.56);
 		areaRectangulo2.arearectangulo();
 		
+		
+		
+		
+		AreaCuadrado areaCuadrado = new AreaCuadrado();
+		areaCuadrado.areaCuadrado(5);
+		
+		AreaCuadrado areaCuadrado2 = new AreaCuadrado(6);
+		areaCuadrado2.areaCuadrado();
 
 	}
 
