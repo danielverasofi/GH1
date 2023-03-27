@@ -17,22 +17,23 @@ public class Calculos {
 		// TODO Auto-generated method stub
 		
 		
-		//Utilizando constructor por defecto o constructor vacio
+		//Utilizando constructor por defecto o constructor vacio y método con ellos
 		AreaRectangulo areaRectangulo = new AreaRectangulo();
 		areaRectangulo.areaRectangulo(0, 0);
 		
 
 		
-		//Utilizando constructor con parametros
+		//Utilizando constructor con parametros método sin ellos
 		AreaRectangulo areaRectangulo2 = new AreaRectangulo(4.65 ,4.56);
 		areaRectangulo2.arearectangulo();
 		
 		
-		
-		
+		//Utilizando constructor por defecto o constructor vacio y método con ellos
 		AreaCuadrado areaCuadrado = new AreaCuadrado();
 		areaCuadrado.areaCuadrado(5);
 		
+		
+		//Utilizando constructor con parametros método sin ellos
 		AreaCuadrado areaCuadrado2 = new AreaCuadrado(6);
 		areaCuadrado2.areaCuadrado();
 
