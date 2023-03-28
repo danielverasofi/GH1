@@ -17,6 +17,15 @@ public class Calculos {
 		// TODO Auto-generated method stub
 		
 		
+		MenuPrincipal menuPrincipal = new MenuPrincipal();
+		menuPrincipal.mPrincipal();
+		
+		
+		
+		
+		
+		/**
+		 * 
 		//Utilizando constructor por defecto o constructor vacio y método con ellos
 		AreaRectangulo areaRectangulo = new AreaRectangulo();
 		areaRectangulo.areaRectangulo(0, 0);
@@ -36,6 +45,7 @@ public class Calculos {
 		//Utilizando constructor con parametros método sin ellos
 		AreaCuadrado areaCuadrado2 = new AreaCuadrado(6);
 		areaCuadrado2.areaCuadrado();
+		**/
 
 	}
 

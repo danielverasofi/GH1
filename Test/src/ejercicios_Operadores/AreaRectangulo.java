@@ -45,7 +45,7 @@ public class AreaRectangulo {
 
 
 	//Función usando los parametros que nos pasen
-	public void areaRectangulo(float base, float altura) {
+	public void areaRectangulo(double base,double altura) {
 		System.out.println("El area  del rectangulo es: "+(base*altura));
 	}
 	
